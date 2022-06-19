@@ -17,7 +17,7 @@ message Customer {
 }
 
 message Orders {
-  repeated Order items = 1;
+  repeated Order orders = 1;
 }
 
 message Order {
